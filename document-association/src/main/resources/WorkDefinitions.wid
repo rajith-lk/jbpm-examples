@@ -56,6 +56,18 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "FileMetaData",
+    "parameters" : [
+        "documentId" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "FileMetaData",
+    "icon" : "defaultservicenodeicon.png"
   ]
 
 ]
