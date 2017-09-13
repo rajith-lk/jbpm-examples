@@ -42,7 +42,7 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new a.randoli.examples.jbpm.document_association.DocumentMetaDataWIH()</identifier>
+            <identifier>new ca.randoli.examples.jbpm.document_association.DocumentMetaDataWIH()</identifier>
             <parameters/>
             <name>FileMetaData</name>
         </work-item-handler>
