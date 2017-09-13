@@ -64,7 +64,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
         "documentId" : new StringDataType()
     ],
     "results" : [
-        "meta-data" : new ObjectDataType(),
+        "Result" : new ObjectDataType(),
     ],
     "displayName" : "FileMetaData",
     "icon" : "defaultservicenodeicon.png"
