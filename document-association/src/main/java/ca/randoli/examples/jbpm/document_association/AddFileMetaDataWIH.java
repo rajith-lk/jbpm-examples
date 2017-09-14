@@ -8,13 +8,13 @@ import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
 import org.kie.api.runtime.process.WorkItemManager;
 
-public class DocumentMetaDataWIH implements WorkItemHandler {
+public class AddFileMetaDataWIH implements WorkItemHandler {
 
 	Random rn = new Random();
 	String[] docTypes = new String[]{"employment", "id", "asset"};
 		
 	public void abortWorkItem(WorkItem workItem, WorkItemManager workItemManager) {
-		System.out.println("DocumentMetaDataWIH Aborted!");
+		System.out.println("AddFileMetaDataWIH Aborted!");
 	}
 
 	public void executeWorkItem(WorkItem workItem, WorkItemManager workItemManager) {
@@ -32,6 +32,7 @@ public class DocumentMetaDataWIH implements WorkItemHandler {
 		results.put("meta-data",metaData);
 		
 		System.out.println("=======================================");
+		System.out.println("Adding Document Meta Data");
 		System.out.println("DocumentMetaDataWIH documentId : " + id);
 		System.out.println("DocumentMetaDataWIH crn : " + crn);
 		System.out.println("DocumentMetaDataWIH document type : " + type);

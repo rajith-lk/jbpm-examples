@@ -34,17 +34,17 @@
             <parameters/>
             <name>WebService</name>
         </work-item-handler>
-        <work-item-handler>
+         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler(classLoader)</identifier>
+            <identifier>new ca.randoli.examples.jbpm.document_association.RetrieveFileMetaDataWIH()</identifier>
             <parameters/>
-            <name>Rest</name>
+            <name>RetrieveFileMetaData</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new ca.randoli.examples.jbpm.document_association.DocumentMetaDataWIH()</identifier>
+            <identifier>new ca.randoli.examples.jbpm.document_association.AddFileMetaDataWIH()</identifier>
             <parameters/>
-            <name>FileMetaData</name>
+            <name>AddFileMetaData</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
