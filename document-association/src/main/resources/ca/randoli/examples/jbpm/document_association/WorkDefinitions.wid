@@ -59,14 +59,28 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   ],
   
   [
-    "name" : "FileMetaData",
+    "name" : "RetrieveFileMetaData",
     "parameters" : [
         "documentId" : new StringDataType()
     ],
     "results" : [
         "Result" : new ObjectDataType(),
     ],
-    "displayName" : "FileMetaData",
+    "displayName" : "RetrieveFileMetaData",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "AddFileMetaData",
+    "parameters" : [
+        "documentId" : new StringDataType(),
+        "meta-key" : new StringDataType(),
+        "meta-value" : new StringDataType(),
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "AddFileMetaData",
     "icon" : "defaultservicenodeicon.png"
   ]
 
